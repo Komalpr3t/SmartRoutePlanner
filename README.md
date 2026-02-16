@@ -28,20 +28,23 @@ The focus of this project is **algorithmic logic and clean structure**, not UI.
 ---
 
 ## Project structure
+
+```text
 SmartRoutePlanner/
 ├── graph/
-│ ├── Graph.java
-│ ├── Edge.java
-│ └── Node.java
+│   ├── Graph.java
+│   ├── Edge.java
+│   └── Node.java
 │
 ├── algorithms/
-│ └── Dijkstra.java
+│   └── Dijkstra.java
 │
 ├── service/
-│ ├── CityService.java
-│ └── RouteService.java
+│   ├── CityService.java
+│   └── RouteService.java
 │
 └── Main.java
+
 
 ---
 
@@ -63,10 +66,13 @@ Where V is the number of cities and E is the number of roads.
 ---
 
 ## Example
-Input:
+
+**Input:**
+```text
 A B 5
 B C 3
 A C 10
+
 
 Output:
 A -> B -> C
