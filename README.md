@@ -44,7 +44,7 @@ SmartRoutePlanner/
 │   └── RouteService.java
 │
 └── Main.java
-
+```
 
 ---
 
@@ -72,7 +72,7 @@ Where V is the number of cities and E is the number of roads.
 A B 5
 B C 3
 A C 10
-
+```
 
 Output:
 A -> B -> C
